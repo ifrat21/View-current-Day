@@ -1,0 +1,18 @@
+<!-- this file should be create under views folder because i will hold all of our html file ...its easy for templating ...we just use the list file key in app.js file ..we should not identify all the route of all of our html file ..we just use one /2 line of code in app.js to interconnect all of our html file -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>to do list</title>
+  </head>
+  <body>
+    <% if(thisDay==="Wednesday"){ %>
+      <h1 style="color: purple"> <%=thisDay%></h1>
+
+<% }else { %>
+    <h1 style="color: blue"> <%=thisDay%></h1>
+
+<% } %>
+  </body>
+</html>
